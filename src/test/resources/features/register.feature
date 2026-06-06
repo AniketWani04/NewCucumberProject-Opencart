@@ -10,4 +10,4 @@ Feature: Register
 
     Examples:
       | firstName | lastName | email | telephone | password | passwordConfirm | newsLetter |
-      | Shivam | Dube | shivam1@gmail.com | 123456 | Shivam@123 | Shivam@123 | yes |
+      | Virat | Dube | shivam1@gmail.com | 123456 | Shivam@123 | Shivam@123 | yes |
