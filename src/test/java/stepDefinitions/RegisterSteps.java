@@ -14,7 +14,6 @@ public class RegisterSteps {
     WebDriver driver;
     HomePage homePage;
     WaitUtils waitUtils;
-    
     RegisterPage registerPage;
 
 
