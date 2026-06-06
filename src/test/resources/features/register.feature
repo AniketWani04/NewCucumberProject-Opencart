@@ -1,3 +1,4 @@
+@smoke
 Feature: Register
   Scenario Outline: Successfully Register
     Given User is on Home page and clicks on My Account
