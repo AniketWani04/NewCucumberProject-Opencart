@@ -42,12 +42,8 @@ WebDriver driver;
                 FileUtils.copyFile(srcFile, destFile);
 
 
-                String base64 = Base64.getEncoder().encodeToString(screenshot);
 
-                // ✅ IMPORTANT FORMAT FOR EXTENT
-                String base64Image = "data:image/png;base64," + base64;
-
-                scenario.attach(base64Image.getBytes(), "image/png", scenario.getName());
+                scenario.attach(screenshot, "image/png", scenario.getName());
             } catch (Exception e) {
                 e.printStackTrace();
             }
